@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+*.cover.out
+
+# Dependency directories (if using vendoring)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git hooks (if not needed)
+.git/hooks/
+
+# Build directories
+bin/
+build/
+dist/
+
+# Go module cache (shouldn’t be in repo)
+pkg/mod/
+
+# Test data (optional - if not needed)
+*.tmp
+*.temp
+*.test.json
